@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // First set the list view to show up.
         setContentView(R.layout.activity_main);
 
         String[] sandwiches = getResources().getStringArray(R.array.sandwich_names);
